@@ -10317,7 +10317,7 @@
                         onClick: function() {
                             return window.location.assign("/")
                         },
-                        children: "FIRST"
+                        children: "VKZ"
                     }), (0,
                     q.jsx)("span", {
                         className: "profile",
@@ -10365,7 +10365,7 @@
                         onClick: function() {
                             return window.location.assign("/")
                         },
-                        children: "FIRST"
+                        children: "VKZ"
                     }), (0,
                     q.jsx)("span", {
                         className: "login",
