@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="/static/media/pentacle_PNG48.png"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta property="og:title" content="The Hell">
+        <meta name="theme-color" content="#ff008d"/>
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1065442087711014912/1166766415253090344/hzopinkrabbit.gif?ex=654baee6&is=653939e6&hm=4ff24327c1a6613effbd4e19a20ea4667d100349ecab5e6eda8a70c913786dd4&">
+        <meta name="og:description" content="My Instagram: @thereisnop4in"/>
+        <link rel="apple-touch-icon" href="/logo192.png"/>
+        <link rel="manifest" href="/manifest.json"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <script defer="defer" src="/static/js/main.1109830b.js"></script>
+        <link href="/static/css/main.css" rel="stylesheet">
+    </head>
+
+    <!-- Music -->
+
+    <script>
+        function audioPlay() {
+              var audio = document.getElementById("audio");
+              audio.volume = 1.0;
+                 audio.currentTime = 0;
+              audio.play();
+        }
+     </script>
+     
+     <audio loop preload="auto" id="audio">
+        <source src="https://cdn.discordapp.com/attachments/1171243677990010904/1171843655766646894/Basement-_Covet_-_Official-Visualizer_.mp3?ex=655e2773&is=654bb273&hm=698980c98ca1f7ffb6d37f5b4dbdbebf19bea29ec87087aefe67c3d48c4d1912&"audio/mpeg">
+     </audio>
+     
+     <input type="checkbox" autocomplete="off" id="overlay-toggle">
+     <div class="overlay fullscreen">
+        <label for="overlay-toggle" onclick="audioPlay(); ">
+           <span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;">clique</span>
+           <span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">clique</span>
+        </label>
+     </div>
+
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            <div class="loader-wrapper">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </body>
+
+    <!-- Titulo -->
+
+    <script>
+		var rev = "fwd";
+		function titlebar(val){
+			var msg  = "The Hell";
+			var res = " ";
+			var speed = 100;
+			var pos = val;
+			msg = ""+msg+"";
+			var le = msg.length;
+			if(rev == "fwd"){
+				if(pos < le){
+					pos = pos+1;
+					scroll = msg.substr(0,pos);
+					document.title = scroll;
+					timer = window.setTimeout("titlebar("+pos+")",speed);
+				}
+				else {
+					rev = "bwd";
+					timer = window.setTimeout("titlebar("+pos+")",speed);
+				}
+			}
+			else {
+				if(pos > 0) {
+					pos = pos-1;
+					var ale = le-pos;
+					scrol = msg.substr(ale,le);
+					document.title = scrol;
+					timer = window.setTimeout("titlebar("+pos+")",speed);
+				}
+				else {
+					rev = "fwd";
+					timer = window.setTimeout("titlebar("+pos+")",speed);
+				}
+			}
+		}
+		titlebar(0);
+		</script>
+
+</html>
