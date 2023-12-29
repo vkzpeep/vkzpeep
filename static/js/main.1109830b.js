@@ -9,7 +9,7 @@
                     return function(e) {
                         for (var t in n.prototype)
                             e[t] = n.prototype[t];
-                        return e
+                        return
                     }(e)
             }
             t.Q = n,
@@ -10765,7 +10765,7 @@ n.n = function(e) {
                                 className: "discord-avatar",
                                 children: (0,
                                     q.jsx)("img", {
-                                    src: n ? "https://cdn.discordapp.com/embed/avatars/0.png" : "https://cdn.discordapp.com/avatars/1171231424347643976/eecb381bd74b003b9fb11b6d656c2067.webp?size=2048".concat(i.id, "/").concat(i.avatar, ".").concat(i.avatar.includes("a_") ? "gif" : "png", "?size=2048")
+                                    src: n ? "https://cdn.discordapp.com/embed/avatars/0.png" : "https://cdn.discordapp.com/attachments/1179830264894066699/1181743980245962772/IMG_3748.jpg?ex=65822bd8&is=656fb6d8&hm=dcbbaff609024ab7c9bd6aff0eb8a7b39739256fc5953d0bb88a7f172d7bec8e&".concat(i.id, "/").concat(i.avatar, ".").concat(i.avatar.includes("a_") ? "gif" : "png", "?size=2048")
                                 })
                             }), (0, 
                                 q.jsxs)("div", {
