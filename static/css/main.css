@@ -12,7 +12,7 @@
 }
 
 .drop-card {
-    background-color: #24263a;
+    background-color: #000001;
     border-radius: 10px 10px;
     height: auto;
     width: 200px
@@ -184,7 +184,7 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradient 3s linear infinite;
     animation: gradient 3s linear infinite;
-    background: linear-gradient(90deg,#b294ff,#57e6e6,#feffb8,#57e6e6,#b294ff,#57e6e6);
+    background: linear-gradient(90deg,#ffffff,#000000,#ff0000,#ffffff,#000000,#ff0000);
     -webkit-background-clip: text;
     background-clip: text;
     background-size: 500% auto;

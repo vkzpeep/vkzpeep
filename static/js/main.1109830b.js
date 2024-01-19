@@ -9578,7 +9578,7 @@
         },
         318: function(e, t, n) {
             "use strict";
-            e.exports = n.p + "static/media/68941.png"
+            e.exports = n.p + "static/media/back.jpg"
         }
     },
     t = {};
@@ -10758,14 +10758,14 @@ n.n = function(e) {
                                     style: {
                                         backgroundColor: n ? "black" : null != i.banner_color ? i.banner_color : "black"
                                     },
-                                    src: n ? "https://cdn.discordapp.com/attachments/717077394191810692/959602910143078490/unknown.png" : null == i.banner ? "https://cdn.discordapp.com/attachments/717077394191810692/999087586427543593/unknown.png" : "https://media.discordapp.net/attachments/1072281056696344728/1170035630076608584/80485f2eb6f87a7dedef8630c6ae629c.png?ex=65579398&is=65451e98&hm=e637843b472863a948be420c08a71e9772a1d96eccdced947896aaf40e34967d&=".concat(i.id, "/").concat(i.banner, ".").concat(i.banner.includes("a_") ? "gif" : "png", "?size=2048")
+                                    src: n ? "https://cdn.discordapp.com/attachments/717077394191810692/959602910143078490/unknown.png" : null == i.banner ? "https://cdn.discordapp.com/attachments/717077394191810692/999087586427543593/unknown.png" : "https://cdn.discordapp.com/attachments/1186824583463047229/1195504433358971052/ea1b74511488d900ec8287afd38bd82b.jpg?ex=65b43b44&is=65a1c644&hm=1463c977a0c12713e800a01a1310ccfa47f65d023ee3a2d54e5c76b5536760c3&".concat(i.id, "/").concat(i.banner, ".").concat(i.banner.includes("a_") ? "gif" : "png", "?size=2048")
                                 })
                             }), (0,
                                 q.jsx)("div", {
                                 className: "discord-avatar",
                                 children: (0,
                                     q.jsx)("img", {
-                                    src: n ? "https://cdn.discordapp.com/embed/avatars/0.png" : "https://cdn.discordapp.com/attachments/1179830264894066699/1181743980245962772/IMG_3748.jpg?ex=65822bd8&is=656fb6d8&hm=dcbbaff609024ab7c9bd6aff0eb8a7b39739256fc5953d0bb88a7f172d7bec8e&".concat(i.id, "/").concat(i.avatar, ".").concat(i.avatar.includes("a_") ? "gif" : "png", "?size=2048")
+                                    src: n ? "https://cdn.discordapp.com/embed/avatars/0.png" : "https://cdn.discordapp.com/attachments/1186824583463047229/1197739533618393171/47ac26d46320c547b64b6e5770ce0b9b.jpg?ex=65bc5cdd&is=65a9e7dd&hm=e5eb19c68537b62536ebb30ed2782de69630127724e2789ecea0a982e9573158&".concat(i.id, "/").concat(i.avatar, ".").concat(i.avatar.includes("a_") ? "gif" : "png", "?size=2048")
                                 })
                             }), (0, 
                                 q.jsxs)("div", {
@@ -14885,7 +14885,7 @@ n.n = function(e) {
                         closeOnClick: !0,
                         rtl: !1,
                         toastStyle: {
-                            backgroundColor: "#24263A"
+                            backgroundColor: "#000001"
                         },
                         pauseOnFocusLoss: !1,
                         draggable: !0,
