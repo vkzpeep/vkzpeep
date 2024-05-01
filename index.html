@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/icon.png" rel="icon" type="image/png">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&amp;family=Quicksand:wght@600&amp;family=Montserrat:wght@600&amp;family=Rethink+Sans&amp;display=swap">
+    <title>The Hell</title>
+    <meta content="#8742f5" name="theme-color">
+    <meta content="My Instagram: @psychonaut4" property="og:description">
+</head>
+
+<body>
+    <ul class="black-overlay">
+        <li style="--clr:#e398d5">
+            <h2><a data-text="" onclick="removeOverlay()"> <img src="assets/psychonaut4.png"> </a></h2>
+        </li>
+    </ul>
+    <div class="background"></div>
+    <div class="profile-container"></div>
+    <button id="muteButton"
+        style="position: absolute; top: 10px; left: 10px; background: none; border: none; padding: 0;">
+        <img id="muteIcon" src="assets/mutado.png" alt="Muted" style="width: 20px; height: 20px;">
+        <img id="unmuteIcon" src="assets/desmutado.png" alt="Unmuted"
+            style="width: 20px; height: 20px; display: none;">
+    </button>
+
+    <audio id="audio" loop preload="auto">
+        <source src="Nackskott.mp3" type="audio/mpeg">
+    </audio>
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/tilt.js"></script>
+</body>
+
+</html>
