@@ -1,0 +1,55 @@
+{
+    "user": {
+      "id": "1051908907100020828",
+      "username": "y6m2",
+      "global_name": "miya",
+      "avatar": "af491f777303e8876588c2c61ba17725",
+      "avatar_decoration_data": null,
+      "discriminator": "0",
+      "public_flags": 0,
+      "clan": null,
+      "flags": 0,
+      "banner": null,
+      "banner_color": "#000000",
+      "accent_color": 0,
+      "bio": "https://shawtys.cc/\nhttps://discord.gg/fect"
+    },
+    "connected_accounts": [
+      {
+        "type": "leagueoflegends",
+        "id": "KnTbx6hQMLaMYUlt27OTYk2bM2n-Ef2oPcAn5C-poRyMMLFUU5l-sjolnwFnUCbvsb7Yy-3YVcb0Kw",
+        "name": "rec",
+        "verified": true
+      }
+    ],
+    "premium_since": "2023-04-11T15:21:15.258815+00:00",
+    "premium_type": 2,
+    "premium_guild_since": "2023-04-11T15:21:56.942000+00:00",
+    "profile_themes_experiment_bucket": 4,
+    "user_profile": {
+      "bio": "https://shawtys.cc/\nhttps://discord.gg/fect",
+      "accent_color": 0,
+      "pronouns": "vitoria",
+      "profile_effect": null,
+      "banner": null,
+      "theme_colors": [0, 0],
+      "popout_animation_particle_type": null,
+      "emoji": null
+    },
+    "badges": [
+      {
+        "id": "premium",
+        "description": "Assinante desde 11 de abr. de 2023",
+        "icon": "2ba85e8026a8614b640c2837bcdfe21b",
+        "link": "https://discord.com/settings/premium"
+      },
+      {
+        "id": "guild_booster_lvl6",
+        "description": "Impulsionando o servidor desde 11 de abr. de 2023",
+        "icon": "991c9f39ee33d7537d9f408c3e53141e",
+        "link": "https://discord.com/settings/premium"
+      }
+    ],
+    "guild_badges": []
+  }
+  
