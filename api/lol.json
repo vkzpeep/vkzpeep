@@ -10,15 +10,15 @@
     "legacyUsername": null
   },
   "profile": {
-    "badgesArray": ["Nitro", "BoostLevel1"],
+    "badgesArray": ["Nitro", "BoostLevel6"],
     "aboutMe": "https://vkzpeep.lol/\n\nhttps://www.instagram.com/psych0naut4/\n\nhttps://5plug.com/",
     "avatarUrl": "https://cdn.discordapp.com/avatars/1222594003271417858/ded9fc9739f4d30c83cf20ad5d5e7035.webp?size=4096",
     "bannerUrl": null
   },
   "boost": {
-    "boost": "BoostLevel1",
+    "boost": "BoostLevel6",
     "boostDate": "2024-04-28T19:25:54.263Z",
-    "nextBoost": "BoostLevel2",
+    "nextBoost": "BoostLevel7",
     "nextBoostDate": "2024-06-28T19:25:54.263Z"
   },
   "connectedAccounts": null
