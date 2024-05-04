@@ -55,20 +55,21 @@ html {
     height: 27px;
     margin-top: -60px;
     align-items: center;
-    margin-right: 1px;
-    transform: translateZ(20px)
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateZ(20px);
 }
 
 .profile .conn-icon {
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
     width: 25px;
     height: 25px;
     margin-top: -60px;
     align-items: center;
-    margin-right: 1px;
     transform: translateZ(20px);
     border-radius: 10px;
-
 }
 
 .tooltip {
@@ -79,7 +80,7 @@ html {
 .tooltip .tooltiptext {
     visibility: hidden;
     background-color: #0000006b;
-    color: #fff;
+    color: #f281ff;
     text-align: center;
     border-radius: 6px;
     padding: 5px;
@@ -90,7 +91,7 @@ html {
     transform: translateX(-50%);
     opacity: 0;
     font-size: 13px;
-    color: #ffffffdf;
+    color: #f281ff;
     font-family: "Rethink Sans", sans-serif;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
@@ -104,7 +105,6 @@ html {
 .no-connections .conn-icon {
     outline: none;
 }
-
 
 .profile .flag-icon:hover {
     filter: brightness(110%);
@@ -149,8 +149,9 @@ html {
     width: 100%;
     height: 100%;
     background: url('e8e0f7f683cbe1da4dc58b2c91b010dc.jpg') center/cover no-repeat;
-    filter: brightness(0.11) saturate(1);
+    filter: brightness(0.2) saturate(1);
     z-index: -1;
+    backdrop-filter: blur(20px);
 }
 
 video {
@@ -175,21 +176,20 @@ video {
 }
 
 .profile {
-    max-width: 300px;
+    max-width: 200px 230px;
     width: 30rem;
-    height: 28rem;
+    height: 17rem;
     text-align: center;
     margin: 0.4rem;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
     align-items: center;
     background-size: cover;
     background-position: center;
     border-radius: 25px;
     z-index: 300;
     filter: blur(10px);
-    background: rgba(13, 13, 13, 0.194);
-    border: 1px solid #312b2b4a;
+    background: rgba(0, 0, 0, 0.194);
+    border: 1px solid #ff0000;
 }
 
 .profile.loaded {
@@ -198,7 +198,7 @@ video {
 }
 
 .profile:hover {
-    outline-color: #6f1c7d;
+    outline-color: #f0e036;
     transform: scale(1.08);
 }
 
@@ -217,13 +217,14 @@ video {
 .profile img {
     display: block;
     max-width: 150px;
-    margin-top: 10px;
+    margin-top: -10px;
+    margin-left: 30px;
     height: auto;
     border-radius: 50%;
     margin-bottom: 10px;
     transition: transform 0.6s ease, outline 0.6s ease, filter 0.6s ease;
     border: 5px solid transparent;
-    border-color: #d5c4a102;
+    border-color: #d5a1a102;
     transform: translateZ(20px);
     outline: 1px solid transparent;
 }
@@ -232,13 +233,14 @@ video {
 .profile:hover .conn-icon,
 .profile:hover img {
     transform: scale(1.08);
-    outline-color: #c2c2c2f3;
+    outline-color: #ff0000;
     align-items: center;
     transition: filter 0.6s ease, transform 0.6s ease, outline-color 0.6s ease, filter 0.6s ease;
 }
 
 .profile .name-container {
-    color: #c2c2c2f3;
+    margin-top: 50px;
+    color: #747474;
     font-size: 25px;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
@@ -246,15 +248,19 @@ video {
     align-items: center;
     border-radius: 25px;
     transform: translateZ(20px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tag {
     font-size: 18px;
-    color: #5a565d8b;
+    color: #6361648b;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     margin-bottom: 0;
-    transform: translateZ(20px)
+    transform: translateZ(20px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .black-overlay {
@@ -284,7 +290,7 @@ ul li a {
     line-height: .8em;
     color: transparent;
     -webkit-text-stroke: 1px var(--clr);
-    align-items: center
+    align-items: center;
 }
 
 ul li a::before {
@@ -295,28 +301,27 @@ ul li a::before {
     align-items: center;
     margin: 0;
     overflow: hidden;
-    transition: .8s
+    transition: .8s;
 }
 
 ul li a:hover::before {
     width: 100%;
     align-items: center;
     margin: 0 auto;
-    filter: drop-shadow(7px -12px 50px var(--clr))
+    filter: drop-shadow(7px -12px 50px var(--clr));
 }
 
 .black-overlay,
 ul li a {
     letter-spacing: 1px;
-
     align-items: center;
-    position: center
+    position: center;
 }
 
 ul,
 ul li,
 ul li a {
-    position: relative
+    position: relative;
 }
 
 .profile,
@@ -331,8 +336,8 @@ ul li a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px; /* Ajuste o tamanho conforme necessário */
-    height: 20px; /* Ajuste o tamanho conforme necessário */
+    width: 20px;
+    height: 20px;
     z-index: 1;
   }
   
